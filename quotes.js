@@ -61,6 +61,45 @@ var quotes=[
         tags:"Coincidence"
         },
 ];
-getRandomQuote(quotes.quote){
- return quotes.quote;
+var quote=quotes.quote;
+var source=quotes.source;
+var citation=quotes.citation;
+var year=quotes.year;
+var tags=quotes.tags;
+var randomQuote+=quote + source+ citation+ year+tags;
+getRandomQuote(randomQuote){
+ return randomQuote;
+};
+for(i=0;i<randomQuote.length;i+=1){
+print(getRandomQuote) {
+  var getRandomQuote=randomQuote;
+  var id=document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+  };
+};
+print(i);
+var html="";
+var randomColor="rgb";
+if(getRandomQuote===loadQuote){
+  function getRandomColor(){
+    return math.floor( math.random()*256);
+  };
+  print(randomColor);
+  for (i=0;i<8;i+=1){
+    randomColor=getRandomColor();
+    html+="<div style="background-color :' +randomColor </div>';
+  };
+
+};
+var timeoutID;
+
+function delayedAlert() {
+  timeoutID = window.setTimeout(slowAlert, 3000);
+};
+
+function slowAlert() {
+  alert(quotes);
+};
+alert(quotes);
+function clearAlert() {
+  window.clearTimeout(timeoutID);
 };
