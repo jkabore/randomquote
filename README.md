@@ -1,1 +1,1 @@
-# randomquote
+ quotes.js
